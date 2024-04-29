@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329057753964",
+    "project_id": "gracemc",
+    "storage_bucket": "gracemc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329057753964:android:1a965a3805c9e01897f149",
+        "android_client_info": {
+          "package_name": "com.example.gracemc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwlL5TSgKPgQxxGbAzlIY09yghZAkRNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

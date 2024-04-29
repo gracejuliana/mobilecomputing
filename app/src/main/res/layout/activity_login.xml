@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="154dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ContentDescription"
+            android:importantForAccessibility="no" />
+
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins"
+            android:hint="Type Your Email"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:letterSpacing="0.1"
+            android:padding="15dp"
+            android:textColor="#776B5D"
+            android:textColorHint="#616161"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins"
+            android:hint="Type Your Password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:letterSpacing="0.1"
+            android:padding="15dp"
+            android:textColor="#776B5D"
+            android:textColorHint="#616161"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Forget Password ?"
+            android:textColor="#776B5D"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:text="LOGIN"
+            android:letterSpacing="0.2"
+            android:textColor="#776B5D"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="Don't have an account ?"
+                android:textColor="#795548"
+                tools:ignore="HardcodedText,InefficientWeight" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Sign Up"
+                android:textColor="#776B5D"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

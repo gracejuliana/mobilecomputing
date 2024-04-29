@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="justified_text"><![CDATA[
+    <p align="justify">Your justified text goes here.</p>
+]]></string>
+</resources>

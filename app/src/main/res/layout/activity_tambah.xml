@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg"
+    tools:context=".Activity.TambahActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:backgroundTint="#EE4266"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:tint="@android:color/white"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:backgroundTint="#337357"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.2"
+            android:text="Simpan"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/inputJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#F3EEEA"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Masukkan Judul"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="#B4B4B8"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/inputNotes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:hint="Masukkan Notes anda"
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            android:textColorHint="#B4B4B8"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    </LinearLayout>
+</LinearLayout>

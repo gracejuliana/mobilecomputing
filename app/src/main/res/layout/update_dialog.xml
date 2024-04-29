@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activity.TambahActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginBottom="16dp"
+            android:text="Edit Data" />
+
+        <EditText
+            android:id="@+id/editJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#F3EEEA"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Masukkan Judul"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="#B4B4B8"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/editNotes"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:hint="Masukkan Notes anda"
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            android:textColorHint="#B4B4B8"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/background"
+            android:backgroundTint="#337357"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.2"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+    </LinearLayout>
+</LinearLayout>

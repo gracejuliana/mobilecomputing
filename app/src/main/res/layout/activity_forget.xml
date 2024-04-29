@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Activity.ForgetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="154dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ContentDescription"
+            android:importantForAccessibility="no" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins"
+            android:hint="Enter your Email"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:letterSpacing="0.1"
+            android:padding="15dp"
+            android:textColor="#776B5D"
+            android:textColorHint="#616161"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:text="RESET"
+            android:letterSpacing="0.2"
+            android:textColor="#776B5D"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#776B5D"
+            android:background="@drawable/back"
+            android:text="Back"
+            android:letterSpacing="0.2"
+            android:textColor="#F3EEEA"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf" />
+    </LinearLayout>
+
+</LinearLayout>
